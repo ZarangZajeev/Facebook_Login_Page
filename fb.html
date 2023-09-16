@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="fbdemo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a class="logo-text" href="fb.html">facebook</a>
+                </div>
+                <div class="login">
+                    <form>
+                    <table class="login-controls">
+                        <tbody>
+                            <tr>
+                                <td><lable class="login-label">Email or Mobile</lable></td>
+                                <td><label class="login-label">Password</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text"></td>
+                                <td><input type="password"></td>
+                                <td><input class="sub-but" type="submit" value="Login"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a class="forgotten" href="forgotten.html">Forgotton Account?</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </form>
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="left-section">
+                    <p class="para">Facebook helps you connect and share with the <br>people in your life.</p>
+                    <img class="image" src="network.png.png" alt="">
+                </div>
+                <div class="right-section">
+                    <h1 class="create">Create an account</h1>
+                    <p class="easy">It's quick and easy.</p>
+                    <form action="" id="signup-form">
+                        <table class="id-controls">
+                            <tbody>
+                                <tr>
+                                    <td><input name="fname" class="name" type="text" placeholder="First name"></td>
+                                    <td><input name="sname" class="name" type="text" placeholder="Surname"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input name="emailAddress" class="name-row" type="text" placeholder="Mobile number or email address"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input name="password" class="name-row" type="password" placeholder="New password"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <label class="birthday">Birthday</label>
+                        <br>
+                        <select class="date" name="" id="" name="day">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <select class="date" name="month">
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                            <option value="">Apl</option>
+                            <option value="">May</option>
+                            <option value="">Jun</option>
+                            <option value="">Jul</option>
+                            <option value="">Aug</option>
+                            <option value="">Sep</option>
+                            <option value="">Oct</option>
+                            <option value="">Nov</option>
+                            <option value="">Dec</option>
+                        </select>
+                        <select class="year" name="year">
+                            <option value="">1993</option>
+                            <option value="">1994</option>
+                            <option value="">1995</option>
+                            <option value="">1996</option>
+                            <option value="">1997</option>
+                            <option value="">1998</option>
+                        </select>
+                        <br><br>
+                        <label class="birthday">Gender</label><br>
+                        <input type="radio" name="gender">
+                        <label for="">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="">Female</label>
+                        <input type="radio" name="gender">
+                        <label for="">Custom</label>
+                        <br>
+                        <p class="policy">By clicking Sign Up,you agree to our <a class="term" href="term.html">terms</a>,<a class="term" href="data.html">data privacy</a><br>
+                        and <a class="term" href="cooking.html">Cooking Policy</a>, You may receive SMS notification from<br>
+                        us and acn opt out at any time</p>
+                        <br>
+                        <button class="sign-up" type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
